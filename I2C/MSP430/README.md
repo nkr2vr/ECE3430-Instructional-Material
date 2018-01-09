@@ -1,3 +1,2 @@
 # I2C Communication
-
 This lab was developed as a potential introduction to I2C communication. As of this writing (January 2018), this lab has not been added to the course. The objective is to communicate information between two MCUs, one acting as master and the other acting as servant. The servant uses a hardware timer module to implement PWM on its LEDs. The PWM value is determined by the master and sent to the servant over I2C.
