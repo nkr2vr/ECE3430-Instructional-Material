@@ -1,0 +1,3 @@
+# Motor Control
+The code included here is designed to work with one of the proprietary header board for the MSP430. It controls a PWM driver for a brushed DC motor module. The module includes a hall-effect rotary encoder to track rotation, and a 9.7:1 gearbox on the output. Students completing this assignment will have debounced switches using a finite state machine, tracked rotation using a finite state machine with the rotary encoder input, and controlled an H-bridge circuit using PWM. The objective is to rotate the motor at a given RPM.
+Similar code was written by Mustafa Hotaki for use with a stepper motor, and achieves the same result on that hardware.
